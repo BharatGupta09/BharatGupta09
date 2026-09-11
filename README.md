@@ -1,354 +1,367 @@
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-    <img src="assets/hero-light.svg" alt="Bharat Gupta — Business, Data and Technology">
-  </picture>
 
-  <p>
-    <a href="https://www.linkedin.com/in/bharat-gupta-29692a2a9/"><b>LinkedIn</b></a>
-    &nbsp;·&nbsp;
-    <a href="mailto:bharatg0904@gmail.com"><b>Email</b></a>
-    &nbsp;·&nbsp;
-    Dubai, UAE
-  </p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img src="assets/hero-light.svg" alt="Bharat Gupta — Business Operations and Data Analyst. Business to data to technology to impact.">
+</picture>
 
-  <p>
-    <a href="#where-i-work">Where I work</a>
-    &nbsp;·&nbsp;
-    <a href="#what-i-do">What I do</a>
-    &nbsp;·&nbsp;
-    <a href="#flagship-work">Flagship work</a>
-    &nbsp;·&nbsp;
-    <a href="#analytics-and-technical-work">Analytics</a>
-    &nbsp;·&nbsp;
-    <a href="#business-development">Business development</a>
-    &nbsp;·&nbsp;
-    <a href="#toolkit">Toolkit</a>
-  </p>
+<p>
+<a href="https://www.linkedin.com/in/bharat-gupta-29692a2a9/"><b>LinkedIn</b></a> &nbsp;·&nbsp;
+<a href="mailto:bharatg0904@gmail.com"><b>Email</b></a> &nbsp;·&nbsp;
+Dubai, UAE
+</p>
+
+<sub>
+<a href="#business--data--technology">ABOUT</a> &nbsp;·&nbsp;
+<a href="#where-the-work-happens">EXPERIENCE</a> &nbsp;·&nbsp;
+<a href="#selected-work">WORK</a> &nbsp;·&nbsp;
+<a href="#business-development">BUSINESS DEVELOPMENT</a> &nbsp;·&nbsp;
+<a href="#stack">STACK</a> &nbsp;·&nbsp;
+<a href="#credentials">CREDENTIALS</a>
+</sub>
+
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/metrics-light.svg">
+  <img src="assets/metrics-light.svg" alt="Scale this work operates within: 120 companies registered, 83 employers participating, 2,000+ students supported, 5,000+ prospective employer leads, 500+ company engagements, 10,000+ employer records.">
+</picture>
+
 </div>
 
----
+## Business × Data × Technology
 
-I work at the point where **business operations, data and technology** meet. Most of my work starts
-with an operational problem — a process that leaks time, a decision being made without evidence, a
-dataset nobody can actually use — and ends with a system, a dashboard or an automated workflow that
-people use in their day job.
+I work where business operations, data and technology meet — translating operational problems into
+measurable workflows, analytical systems and digital products.
 
-That work happens inside recruitment and placement operations: employers to research and engage,
-hiring drives to run, thousands of employer and student records to keep meaningful, and leadership
-that needs to know whether any of it is working.
+<div align="center">
 
-I am not only the analyst in that picture. I understand the operation that produces the data, the
-stakeholders who depend on it, and the technology that can change how it runs.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/triad-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/triad-light.svg">
+  <img src="assets/triad-light.svg" alt="Business: requirements, stakeholders, operations, strategy. Data: analytics, business intelligence, KPIs, decision support. Technology: automation, AI, CRM, digital platforms.">
+</picture>
 
-> [!NOTE]
-> **Open to** — Business Analyst · Data Analyst · Business Intelligence Analyst · Business
-> Operations Analyst · Product / Operations Analyst · Analytics &amp; Technology Consulting ·
-> Digital Transformation
+</div>
 
----
+## Where the work happens
 
-## Where I work
+**Career Services Division** &nbsp;·&nbsp; BITS Pilani Dubai Campus
 
-**Business Operations &amp; Data Analyst** — Career Services Division, BITS Pilani Dubai Campus
+A university career services division is a real commercial operation — a market to research, an
+employer pipeline to build, hiring events to deliver, and leadership that needs evidence rather
+than anecdote. My work spans every side of it.
 
-A university career services division is a real commercial operation. There is a market to research,
-a pipeline of employers to build and keep warm, hiring events to deliver, candidates to prepare and
-route, and a leadership team that needs evidence rather than anecdote. My work spans every side of
-it — which is why this role, rather than any single project, is the centre of my profile.
+<table>
+<tr>
+<td width="33%" valign="top">
 
-| | |
-|---|---|
-| **Business &amp; Analytics** | Business analysis · Data analysis · Business intelligence · KPI reporting · Dashboard development · Recruitment, employer, student and placement analytics · Operational reporting · Data cleaning, transformation and modelling · Trend analysis · Decision support · Reporting automation |
-| **Business Development** | Employer prospecting · Lead generation · Market research · Target-company and decision-maker identification · Lead qualification · Employer outreach · Strategic partnerships · Relationship management · Recruitment pipeline management |
-| **Operations** | Recruitment and placement operations · Recruitment campaigns · Interview coordination · Employer and student communication · Recruitment and event logistics · Operational issue resolution · Workflow optimisation · Process improvement |
-| **Management &amp; Coordination** | Cross-functional coordination across employers, students, faculty and leadership · Stakeholder management · Career fair execution · Placement-drive coordination · Operational planning · Timeline and task coordination |
-| **Technology &amp; Transformation** | CRM development · BI platforms · Power BI · Excel and reporting automation · Workflow automation · AI-enabled recruitment · Digital career-fair systems · Digital transformation |
+**BUSINESS &amp; ANALYTICS**
 
-**The scale this work operates within**
+Business analysis<br>
+Business intelligence<br>
+KPI reporting<br>
+Placement analytics<br>
+Operational reporting
 
-| `120` | `83` | `2,000+` | `5,000+` | `500+` | `10,000+` |
-|:--:|:--:|:--:|:--:|:--:|:--:|
-| companies<br>registered | employers<br>participating | students<br>supported | prospective<br>employer leads | company<br>engagements | employer<br>records |
+</td>
+<td width="33%" valign="top">
 
-<sub><i>These figures describe the scale of the operation, initiative or dataset the work was carried
-out within — not sole individual ownership of every outcome.</i></sub>
+**BUSINESS DEVELOPMENT**
 
----
+Employer prospecting<br>
+Lead generation<br>
+Market research<br>
+Decision-maker identification<br>
+Employer engagement
 
-## What I do
+</td>
+<td width="33%" valign="top">
 
-How the capabilities connect, rather than a list of skills:
+**OPERATIONS**
 
-- **Business Analysis** &nbsp;→&nbsp; Requirements &nbsp;→&nbsp; Process mapping &nbsp;→&nbsp; Functional specification
-- **Data &amp; BI** &nbsp;→&nbsp; SQL &nbsp;→&nbsp; Python &nbsp;→&nbsp; Excel &nbsp;→&nbsp; Power BI &nbsp;→&nbsp; KPI reporting
-- **Business Operations** &nbsp;→&nbsp; Recruitment &nbsp;→&nbsp; Placement &nbsp;→&nbsp; Workflow &nbsp;→&nbsp; Process optimisation
-- **Business Development** &nbsp;→&nbsp; Market research &nbsp;→&nbsp; Lead generation &nbsp;→&nbsp; Employer engagement
-- **Digital Transformation** &nbsp;→&nbsp; CRM &nbsp;→&nbsp; Automation &nbsp;→&nbsp; Digital platforms
-- **AI &amp; Intelligent Systems** &nbsp;→&nbsp; LLMs &nbsp;→&nbsp; NLP &nbsp;→&nbsp; Resume intelligence &nbsp;→&nbsp; AI automation
+Recruitment operations<br>
+Placement operations<br>
+Recruitment campaigns<br>
+Event logistics<br>
+Process optimisation
 
----
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-## Flagship work
+**MANAGEMENT**
 
-### Employer Relationship Management (CRM)
+Stakeholder management<br>
+Cross-functional coordination<br>
+Career fairs<br>
+Placement drives<br>
+Operational planning
 
-`Business Transformation` `CRM` `Recruitment Workflows` `Supabase` `Vercel`
+</td>
+<td valign="top">
 
-**Problem.** Employer management ran on spreadsheets and individual memory. Contact history
-fragmented across inboxes, records duplicated, follow-ups slipped, and nobody could answer *who has
-spoken to this company, and what happened next*.
+**DIGITAL TRANSFORMATION**
 
-**Approach.** Translate the division's working practices into requirements, then into a centralised
-employer relationship platform — a database-driven system built around a base of **10,000+ employer
-records**, with AI-assisted development used to move faster on the build.
+CRM<br>
+Workflow automation<br>
+AI-enabled recruitment<br>
+Digital platforms<br>
+Reporting automation
 
-**Impact.** Employer information centralised in one place, duplicate records reduced, follow-ups
-automated rather than remembered, and a single operational view of the employer relationship that
-the whole team can access.
+</td>
+<td valign="top">
 
-<details>
-<summary><b>Capabilities</b></summary>
+**DATA**
 
-<br>
+Data cleaning<br>
+Transformation<br>
+Modelling<br>
+Trend analysis<br>
+Decision support
+
+</td>
+</tr>
+</table>
+
+## Selected work
+
+### Flagship
+
+<table>
+<tr><td width="50%" valign="top">
+
+`01` &nbsp; **BUSINESS TRANSFORMATION**
+
+### Employer Relationship CRM
+
+Fragmented employer records across spreadsheets and inboxes → one centralised recruitment
+relationship system.
+
+**`10,000+ employer records`**
+
+<sub>CRM · Pipelines · Interview tracking · Role-based access · Dashboards</sub><br>
+<sub>`Supabase` `Vercel` `AI-assisted build`</sub>
+
+<details><summary><sub><b>Explore</b></sub></summary><br>
 
 Employer profiles · Recruiter and contact management · Contact history · Meeting logs · Recruitment
 pipelines · Interview tracking · Task management · Follow-up reminders · Role-based access ·
-Advanced search · Operational dashboards · Reporting · Centralised employer data
+Advanced search · Operational dashboards · Reporting
+
+**Impact** — employer data centralised, duplicate records reduced, follow-ups automated rather than
+remembered, and one operational view the whole team can work from.
 
 </details>
 
-<br>
+</td><td width="50%" valign="top">
 
-### Paperless Career Fair Platform
+`02` &nbsp; **DIGITAL TRANSFORMATION**
 
-`Digital Transformation` `Workflow Design` `Event Operations` `Structured Data Capture`
+### Paperless Career Fair
 
-**Problem.** A career fair traditionally runs on printed resumes, manual sign-in sheets and
-recruiters trying to remember who impressed them. The administrative cost is high and, worse, the
-event produces no usable record of itself.
+Printed resumes and manual sign-in sheets → a fully digital event that produces a usable record of
+itself.
 
-**Approach.** Map the existing manual workflow, write the functional specification, and rebuild the
-event as a digital process covering all three audiences — students, recruiters and administrators —
-with QR-based candidate identification at its centre.
+**`Every interaction captured as data`**
 
-**Impact.** A paperless recruitment workflow where every recruiter–student interaction is captured
-as structured data, recruiters work from dashboards instead of paper, administrators get live
-visibility of the event, and the division ends the day with an analysable dataset and a real
-follow-up capability.
+<sub>QR identification · Recruiter scanning · Bookmarking · Live dashboards</sub><br>
+<sub>`Workflow design` `Functional specs` `Event operations`</sub>
 
-<details>
-<summary><b>Capabilities</b></summary>
+<details><summary><sub><b>Explore</b></sub></summary><br>
 
-<br>
+Digital registration · Student, recruiter and administrator workflows · QR-based candidate
+identification · Recruiter scanning · Candidate bookmarking · Interview notes · Recruiter
+dashboards · Administrator dashboards · Event management · Centralised interaction data
 
-Digital registration · Student workflows · Recruiter workflows · Administrator workflows ·
-QR-based candidate identification · Recruiter scanning · Candidate bookmarking · Interview notes ·
-Recruiter dashboards · Administrator dashboards · Event management · Centralised interaction data
+**Impact** — paperless recruitment workflow, live visibility of the event for administrators, and
+an analysable dataset with real follow-up capability at the end of the day.
 
 </details>
 
-<br>
+</td></tr>
+<tr><td width="50%" valign="top">
 
-### AI Resume Screening &amp; Talent Intelligence
+`03` &nbsp; **APPLIED AI**
 
-`Applied AI` `LLM / NLP` `Recruitment Automation` `Decision Support`
+### AI Resume Screening
 
-**Problem.** Screening high volumes of applications by hand is slow and inconsistent — the same
-candidate is assessed differently depending on who reads the resume and how late in the day it is.
+High-volume manual screening is slow and inconsistent → structured, comparable candidate
+intelligence.
 
-**Approach.** Use LLM and NLP techniques to turn unstructured resumes into structured candidate
-intelligence: parse the document, extract skills, score against the role, and rank candidates on
-comparable criteria through a recruiter-facing interface.
+**`Unstructured resumes → ranked candidates`**
 
-**Impact.** Recruiters start from structured, consistent evidence instead of a stack of PDFs.
-Candidates receive specific feedback rather than silence. The intent is decision support — the
-hiring decision stays with the recruiter.
+<sub>Parsing · ATS scoring · Skill extraction · Job matching · Ranking</sub><br>
+<sub>`LLMs` `NLP` `Recruiter interface`</sub>
 
-<details>
-<summary><b>Capabilities</b></summary>
-
-<br>
+<details><summary><sub><b>Explore</b></sub></summary><br>
 
 Resume parsing · ATS compatibility scoring · Skill extraction · Keyword analysis · Job matching ·
-Candidate ranking · Personalised resume feedback · AI-generated interview questions · Structured
-extraction from unstructured resumes · Recruiter-facing interface · AI-assisted hiring insights
+Candidate ranking · Personalised resume feedback · AI-generated interview questions · Recruiter-facing
+interface
+
+**Impact** — recruiters start from consistent evidence rather than a stack of PDFs, and candidates
+receive specific feedback instead of silence. Decision support: the hiring call stays with the
+recruiter.
 
 </details>
 
-<br>
+</td><td width="50%" valign="top">
 
-### Placement Analytics &amp; Business Intelligence Platform
+`04` &nbsp; **BUSINESS INTELLIGENCE**
 
-`Business Intelligence` `Power BI` `KPI Design` `Decision Support`
+### Placement Analytics Platform
 
-**Problem.** A placement team can always describe last year. The harder question is *what should we
-do next season* — which departments are underperforming, where candidates drop out of the funnel,
-how many employers need to be brought in.
+"How did last year go?" → "what should we do next season, and where is the funnel leaking?"
 
-**Approach.** Consolidate the placement data model — students, academics, placement status,
-internships, skills, resumes, recruiter assignments, preferred industries and roles, applications
-and offers — then design the KPI layer and build it as interactive BI with drill-down and dynamic
-filtering rather than static monthly reports.
+**`Conversion visible at every stage`**
 
-**Impact.** Conversion visible at every stage of the funnel, department and batch performance
-comparable side by side, and planning decisions made against evidence.
+<sub>KPI design · Drill-down · Dynamic filtering · Cohort comparison</sub><br>
+<sub>`Power BI` `Data modelling` `Automated reporting`</sub>
 
-<details>
-<summary><b>KPIs and measures</b></summary>
+<details><summary><sub><b>Explore</b></sub></summary><br>
 
-<br>
+**Data model** — students · academics · placement status · internships · skills · resumes ·
+recruiter assignments · preferred industries and roles · applications · offers
 
-Placement rates · Student engagement · Company participation · Applications · Interview conversion ·
-Offer conversion · Department-level performance · Batch-level statistics · Academic trends
+**KPIs** — placement rates · student engagement · company participation · applications · interview
+conversion · offer conversion · department-level performance · batch-level statistics · academic
+trends
 
 </details>
 
----
+</td></tr>
+</table>
 
-## Analytics and technical work
+### More analytics &amp; intelligent systems
 
-<details>
-<summary><b>Student Analytics &amp; Placement Intelligence</b> — segmentation and planning support</summary>
+<table>
+<tr><td width="50%" valign="top">
 
-<br>
+`05` **Student Analytics &amp; Placement Intelligence**
 
-`Power BI` `Data Modelling` `Segmentation`
+Student data cleaned, modelled and segmented into dynamic dashboards supporting recruitment
+planning.
 
-Cleaning, transformation and modelling of student data into an analytical layer covering placement
-preferences and student segmentation. Built as dynamic dashboards for operational reporting, used to
-support recruitment planning and give stakeholders a defensible basis for decisions rather than
-assumptions about what a cohort wants.
+<sub>`Power BI` `Segmentation` `Data modelling`</sub>
 
-</details>
+</td><td width="50%" valign="top">
 
-<details>
-<summary><b>Recruitment Analytics &amp; Employer Reporting</b> — operational performance visibility</summary>
+`06` **Recruitment Analytics &amp; Employer Reporting**
 
-<br>
+Recruitment KPIs and employer engagement measures turned into standardised, automated reporting.
 
-`KPI Reporting` `Power BI` `Excel` `Automated Reporting`
+<sub>`KPI reporting` `Excel` `Data integration`</sub>
 
-Recruitment KPIs, employer engagement measures and placement metrics brought into standardised,
-repeatable reporting. Data integration across sources, automated report generation, and dynamic
-visualisations replacing manual reporting cycles — so operational performance is visible
-continuously rather than reconstructed at quarter end.
+</td></tr>
+<tr><td valign="top">
 
-</details>
+`07` **Automated Employer Registration**
 
-<details>
-<summary><b>Automated Employer Registration</b> — workflow automation</summary>
+Manual sign-up replaced by an event-driven form workflow producing analysis-ready data by default.
 
-<br>
+<sub>`Workflow automation` `Schema design` `Google Sheets`</sub>
 
-`Workflow Automation` `Schema Design` `Google Sheets` `Event-Driven Process`
+</td><td valign="top">
 
-Manual employer registration replaced with a structured digital form and an event-driven workflow:
-submission triggers automated confirmation and writes a clean record to a central sheet. The field
-schema was designed so the output is analysis-ready by default, removing both the manual
-coordination step and the data-cleaning step that used to follow it.
+`08` **Real-Time E-commerce Analytics**
 
-</details>
+**100,000+ records** of customer behaviour and transactions tracked for KPI and conversion
+analysis. XGBoost **84.1%**, ROC-AUC **0.99**.
 
-<details>
-<summary><b>Real-Time E-commerce Analytics</b> — customer behaviour and KPI tracking</summary>
+<sub>`Behavioural analytics` `XGBoost` `Dashboards`</sub>
 
-<br>
+</td></tr>
+<tr><td valign="top">
 
-`Behavioural Analytics` `KPI Tracking` `Dashboards` `XGBoost`
+`09` **NLP &amp; Sentiment Analytics**
 
-A real-time analytics system built over **100,000+ e-commerce records**, analysing customer
-behaviour and transaction trends to identify what actually drives performance, surfaced through
-dashboards built for decision-making rather than description. Predictive modelling on the
-behavioural data reached **84.1%** accuracy with **XGBoost** at a **0.99 ROC-AUC**, supporting
-segmentation of customers by likelihood to convert.
+Unstructured customer reviews turned into a measurable signal with a fine-tuned BERT classifier at
+**94.2%** accuracy.
 
-</details>
+<sub>`NLP` `BERT` `Classification`</sub>
 
-<details>
-<summary><b>NLP &amp; Sentiment Analytics</b> — unstructured feedback as a measurable signal</summary>
+</td><td valign="top">
 
-<br>
+`10` **Computer Vision &amp; Privacy Research**
 
-`NLP` `BERT` `Classification` `Model Evaluation`
+Age-invariant face recognition combining image processing with privacy-preserving techniques.
+SFace ≈ **97.6%** across **210+ test cases**.
 
-Customer reviews are the largest source of honest feedback most businesses hold and the least used,
-because nobody can read them at volume. A fine-tuned **BERT** classifier reaching **94.2%** accuracy
-turned that unstructured text into a measurable signal — what customers raise, in what volume, and
-whether it is improving or deteriorating.
+<sub>`Computer vision` `Privacy` `Research`</sub>
 
-</details>
+</td></tr>
+</table>
 
-<details>
-<summary><b>Computer Vision &amp; Privacy Research</b> — age-invariant recognition</summary>
+<sub><i>These are professional and academic workstreams; source repositories are not public.</i></sub>
 
-<br>
+## How I approach problems
 
-`Computer Vision` `Privacy-Preserving Techniques` `Research Methodology`
+<div align="center">
 
-Research into age-invariant face recognition, where conventional matching degrades sharply as the
-gap between reference and probe images widens. Work combined image processing with
-privacy-preserving techniques and structured experimentation, with the **SFace** model reaching
-approximately **97.6%** accuracy across **210+ test cases**.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/process-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/process-light.svg">
+  <img src="assets/process-light.svg" alt="Problem, requirements, data, system, decision.">
+</picture>
 
-</details>
+</div>
 
----
+Understand the operational problem → translate it into measurable requirements → structure and
+analyse the data → build the dashboard, workflow or system → turn the result into decision support.
 
 ## Business development
 
 Employer relationships do not appear on their own. A meaningful part of my work is the commercial
-front end of the operation — finding the companies worth talking to, reaching the person who can
-actually make a decision, and turning that into a recruiting relationship the division can rely on.
+front end — finding the companies worth talking to, reaching the person who can decide, and turning
+that into a relationship the division can rely on.
 
-- **Research and targeting** — market research, prospect research, target-company identification and decision-maker identification across a base of **5,000+ prospective employer leads**
-- **Qualification and outreach** — lead qualification, personalised outreach, structured email and phone follow-up
-- **Relationship and pipeline** — employer engagement, partnership development, employer database management and recruitment pipeline management
+**RESEARCH** → **TARGET** → **QUALIFY** → **ENGAGE** → **RELATIONSHIP** → **RECRUITMENT PIPELINE**
 
-`LinkedIn` `Apollo.io` `Hunter.io` `ContactOut` `AI-assisted research`
+Worked across **5,000+ prospective employer leads** and **500+ company engagements**, covering
+market and prospect research, target-company and decision-maker identification, lead qualification,
+personalised outreach, follow-up, partnership development and pipeline management.
 
-This connects directly to everything above: the leads become employer records in the CRM, the
-engagements become pipeline, and the pipeline becomes the recruitment analytics the division plans
-against.
+<sub>`LinkedIn` `Apollo.io` `Hunter.io` `ContactOut` `AI-assisted research`</sub>
 
----
+## Stack
 
-## Toolkit
+**DATA &amp; BI** &nbsp; `Power BI` `Advanced Excel` `SQL` `Tableau` `Superset`
 
-| | |
-|---|---|
-| **Analytics &amp; BI** | Power BI · Advanced Excel · SQL · Tableau · Superset |
-| **Data** | Python · Data cleaning · Data transformation · Data modelling · Statistical and descriptive analysis |
-| **Business &amp; Operations** | Business analysis · KPI tracking · Requirements gathering · Process optimisation · Stakeholder management · Recruitment operations · Employer engagement |
-| **Automation** | Workflow automation · Google Sheets · WIX · Event-driven processes |
-| **AI** | LLMs · NLP · AI-assisted workflows · Claude · ChatGPT · Gemini · Perplexity |
-| **Platforms** | Supabase · Vercel · GitHub |
+**PROGRAMMING** &nbsp; `Python` `SQL`
 
----
+**BUSINESS** &nbsp; `Business analysis` `Requirements` `KPI design` `Process optimisation`
+
+**OPERATIONS** &nbsp; `Recruitment operations` `Employer engagement` `Stakeholder management`
+
+**AUTOMATION** &nbsp; `Workflow automation` `Google Sheets` `WIX`
+
+**AI** &nbsp; `LLMs` `NLP` `AI-assisted workflows` `Claude` `ChatGPT` `Gemini` `Perplexity`
+
+**PLATFORMS** &nbsp; `Supabase` `Vercel` `GitHub`
 
 ## Credentials
 
-| Certification | Issuer | |
-|---|---|---|
-| Data Science Job Simulation | BCG · Forage | [Verify](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/SKZxezskWgmFjRvj9/Tcz8gTtprzAS4xSoK_SKZxezskWgmFjRvj9_BgHKoZ93ZF92JFhWQ_1751749665174_completion_certificate.pdf) |
-| Data Analytics Job Simulation | Deloitte Australia · Forage | [Verify](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_BgHKoZ93ZF92JFhWQ_1749915487560_completion_certificate.pdf) |
-| Data Analytics Essentials | Cisco Networking Academy | [Verify](https://www.credly.com/badges/c5652c63-1ebe-41c3-bc56-4de42470313f/public_url) |
-| Exploratory Data Analysis | Coursera | [Verify](https://coursera.org/share/d836b286758351e1dfd8dabbc1819e52) |
-| Data Engineering on AWS — Foundations | AWS Training | — |
+**BCG** — Data Science Job Simulation · [verify](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/SKZxezskWgmFjRvj9/Tcz8gTtprzAS4xSoK_SKZxezskWgmFjRvj9_BgHKoZ93ZF92JFhWQ_1751749665174_completion_certificate.pdf)<br>
+**Deloitte Australia** — Data Analytics Job Simulation · [verify](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_BgHKoZ93ZF92JFhWQ_1749915487560_completion_certificate.pdf)<br>
+**Cisco Networking Academy** — Data Analytics Essentials · [verify](https://www.credly.com/badges/c5652c63-1ebe-41c3-bc56-4de42470313f/public_url)<br>
+**Coursera** — Exploratory Data Analysis · [verify](https://coursera.org/share/d836b286758351e1dfd8dabbc1819e52)<br>
+**AWS Training** — Data Engineering on AWS, Foundations
 
-**B.E. Computer Science** — BITS Pilani Dubai Campus · Sep 2022 – Sep 2026
+<sub>**B.E. Computer Science** — BITS Pilani Dubai Campus · Sep 2022 – Sep 2026</sub>
 
 ---
 
 <div align="center">
 
-### Let's talk
+### Building better business systems with data?
 
-If you are solving a business problem with data, operations and automation — and you want someone
-who understands all three — I would like to hear about it.
+<sub>BUSINESS ANALYSIS &nbsp;·&nbsp; ANALYTICS &nbsp;·&nbsp; OPERATIONS &nbsp;·&nbsp; AUTOMATION &nbsp;·&nbsp; AI</sub>
 
-<a href="https://www.linkedin.com/in/bharat-gupta-29692a2a9/"><b>Connect on LinkedIn</b></a>
+<a href="https://www.linkedin.com/in/bharat-gupta-29692a2a9/"><b>LinkedIn</b></a>
 &nbsp;·&nbsp;
 <a href="mailto:bharatg0904@gmail.com"><b>bharatg0904@gmail.com</b></a>
 

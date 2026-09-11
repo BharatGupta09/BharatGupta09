@@ -135,6 +135,14 @@ Each of these began as an operational problem inside the division, not as a codi
 
 `Superset` `Excel` `Pivot analysis` `Survey design` `Descriptive statistics`
 
+<br>
+
+### Real-time e-commerce analytics
+
+Outside the placement domain, a real-time analytics system built over **100,000+ e-commerce records** for KPI tracking — analysing customer behaviour and transaction trends to isolate the drivers behind performance, and surfacing them through dashboards built for decision-making rather than description.
+
+`Python` `Dashboards` `KPI tracking` `Behavioural analysis`
+
 <details>
 <summary>Earlier technical projects</summary>
 

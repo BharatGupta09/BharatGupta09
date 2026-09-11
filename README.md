@@ -7,9 +7,9 @@
 </picture>
 
 <p>
-<a href="https://www.linkedin.com/in/bharat-gupta-29692a2a9/"><b>LinkedIn</b></a> &nbsp;·&nbsp;
-<a href="mailto:bharatg0904@gmail.com"><b>Email</b></a> &nbsp;·&nbsp;
-Dubai, UAE
+Dubai, UAE &nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/bharat-gupta-29692a2a9/"><b>LinkedIn</b></a> &nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="mailto:bharatg0904@gmail.com"><b>Email</b></a>
 </p>
 
 <sub>
@@ -143,24 +143,16 @@ Decision support
 
 ## Selected work
 
-### Flagship
+<sub>`01`</sub>
 
-<table>
-<tr><td width="50%" valign="top">
+### EMPLOYER RELATIONSHIP CRM
 
-`01` &nbsp; **BUSINESS TRANSFORMATION**
+Turning fragmented employer relationships into a centralised operating system.
 
-### Employer Relationship CRM
+**10,000+ employer records**<br>
+<sub>CRM · Recruitment · Automation &nbsp;&nbsp; `Supabase` `Vercel`</sub>
 
-Fragmented employer records across spreadsheets and inboxes → one centralised recruitment
-relationship system.
-
-**10,000+ employer records**
-
-<sub>CRM · Pipelines · Interview tracking · Role-based access · Dashboards</sub><br>
-<sub>`Supabase` `Vercel` `AI-assisted`</sub>
-
-<details><summary><sub><b>Explore</b></sub></summary><br>
+<details><summary><sub><b>DETAIL &nbsp;&#8594;</b></sub></summary><br>
 
 Employer profiles · Recruiter and contact management · Contact history · Meeting logs · Recruitment
 pipelines · Interview tracking · Task management · Follow-up reminders · Role-based access ·
@@ -171,21 +163,18 @@ remembered, and one operational view the whole team can work from.
 
 </details>
 
-</td><td width="50%" valign="top">
+---
 
-`02` &nbsp; **DIGITAL TRANSFORMATION**
+<sub>`02`</sub>
 
-### Paperless Career Fair
+### PAPERLESS CAREER FAIR
 
-Printed resumes and manual sign-in sheets → a fully digital event that produces a usable record of
-itself.
+Replacing paper-based recruitment workflows with structured digital interactions.
 
-**Every interaction captured as data**
+**Every interaction captured as data**<br>
+<sub>QR identification · Recruiter workflow &nbsp;&nbsp; `Workflow design` `Event operations`</sub>
 
-<sub>QR identification · Recruiter scanning · Bookmarking · Live dashboards</sub><br>
-<sub>`Workflow design` `Specs` `Events`</sub>
-
-<details><summary><sub><b>Explore</b></sub></summary><br>
+<details><summary><sub><b>DETAIL &nbsp;&#8594;</b></sub></summary><br>
 
 Digital registration · Student, recruiter and administrator workflows · QR-based candidate
 identification · Recruiter scanning · Candidate bookmarking · Interview notes · Recruiter
@@ -196,26 +185,22 @@ an analysable dataset with real follow-up capability at the end of the day.
 
 </details>
 
-</td></tr>
-<tr><td width="50%" valign="top">
+---
 
-`03` &nbsp; **APPLIED AI**
+<sub>`03`</sub>
 
-### AI Resume Screening
+### AI RESUME SCREENING
 
-High-volume manual screening is slow and inconsistent → structured, comparable candidate
-intelligence.
+Turning unstructured resumes into structured candidate intelligence.
 
-**Unstructured resumes → ranked candidates**
+**Unstructured resumes → ranked candidates**<br>
+<sub>LLM · NLP · Recruitment &nbsp;&nbsp; `ATS scoring` `Job matching`</sub>
 
-<sub>Parsing · ATS scoring · Skill extraction · Job matching · Ranking</sub><br>
-<sub>`LLMs` `NLP` `Recruiter UI`</sub>
-
-<details><summary><sub><b>Explore</b></sub></summary><br>
+<details><summary><sub><b>DETAIL &nbsp;&#8594;</b></sub></summary><br>
 
 Resume parsing · ATS compatibility scoring · Skill extraction · Keyword analysis · Job matching ·
-Candidate ranking · Personalised resume feedback · AI-generated interview questions · Recruiter-facing
-interface
+Candidate ranking · Personalised resume feedback · AI-generated interview questions ·
+Recruiter-facing interface
 
 **Impact** — recruiters start from consistent evidence rather than a stack of PDFs, and candidates
 receive specific feedback instead of silence. Decision support: the hiring call stays with the
@@ -223,20 +208,18 @@ recruiter.
 
 </details>
 
-</td><td width="50%" valign="top">
+---
 
-`04` &nbsp; **BUSINESS INTELLIGENCE**
+<sub>`04`</sub>
 
-### Placement Analytics Platform
+### PLACEMENT ANALYTICS
 
-"How did last year go?" → "what should we do next season, and where is the funnel leaking?"
+From placement data to decision support.
 
-**Conversion visible at every stage**
+**Conversion visible at every stage**<br>
+<sub>Power BI · Data modelling · KPI design &nbsp;&nbsp; `Drill-down` `Reporting`</sub>
 
-<sub>KPI design · Drill-down · Dynamic filtering · Cohort comparison</sub><br>
-<sub>`Power BI` `Data modelling` `Reporting`</sub>
-
-<details><summary><sub><b>Explore</b></sub></summary><br>
+<details><summary><sub><b>DETAIL &nbsp;&#8594;</b></sub></summary><br>
 
 **Data model** — students · academics · placement status · internships · skills · resumes ·
 recruiter assignments · preferred industries and roles · applications · offers
@@ -247,65 +230,64 @@ trends
 
 </details>
 
-</td></tr>
-</table>
+---
 
 ### More analytics &amp; intelligent systems
 
 <table>
 <tr><td width="50%" valign="top">
 
-`05` **Student Analytics &amp; Placement Intelligence**
+<sub>`05`</sub> **Student Analytics &amp; Placement Intelligence**
 
 Student data cleaned, modelled and segmented into dynamic dashboards supporting recruitment
 planning.
 
-<sub>`Power BI` `Segmentation` `Data modelling`</sub>
+<sub>`Power BI` `Segmentation`</sub>
 
 </td><td width="50%" valign="top">
 
-`06` **Recruitment Analytics &amp; Employer Reporting**
+<sub>`06`</sub> **Recruitment Analytics &amp; Employer Reporting**
 
 Recruitment KPIs and employer engagement measures turned into standardised, automated reporting.
 
-<sub>`KPI reporting` `Excel` `Data integration`</sub>
+<sub>`KPI reporting` `Excel`</sub>
 
 </td></tr>
-<tr><td valign="top">
+<tr><td width="50%" valign="top">
 
-`07` **Automated Employer Registration**
+<sub>`07`</sub> **Automated Employer Registration**
 
 Manual sign-up replaced by an event-driven form workflow producing analysis-ready data by default.
 
-<sub>`Workflow automation` `Schema design` `Google Sheets`</sub>
+<sub>`Automation` `Schema design`</sub>
 
-</td><td valign="top">
+</td><td width="50%" valign="top">
 
-`08` **Real-Time E-commerce Analytics**
+<sub>`08`</sub> **Real-Time E-commerce Analytics**
 
-**100,000+ records** of customer behaviour and transactions tracked for KPI and conversion
-analysis. XGBoost **84.1%**, ROC-AUC **0.99**.
+**100,000+ records** of customer behaviour and transactions tracked for KPI and conversion analysis.
+XGBoost **84.1%**, ROC-AUC **0.99**.
 
-<sub>`Behavioural analytics` `XGBoost` `Dashboards`</sub>
+<sub>`Behavioural` `XGBoost`</sub>
 
 </td></tr>
-<tr><td valign="top">
+<tr><td width="50%" valign="top">
 
-`09` **NLP &amp; Sentiment Analytics**
+<sub>`09`</sub> **NLP &amp; Sentiment Analytics**
 
 Unstructured customer reviews turned into a measurable signal with a fine-tuned BERT classifier at
 **94.2%** accuracy.
 
-<sub>`NLP` `BERT` `Classification`</sub>
+<sub>`NLP` `BERT`</sub>
 
-</td><td valign="top">
+</td><td width="50%" valign="top">
 
-`10` **Computer Vision &amp; Privacy Research**
+<sub>`10`</sub> **Computer Vision &amp; Privacy Research**
 
 Age-invariant face recognition combining image processing with privacy-preserving techniques.
 SFace ≈ **97.6%** across **210+ test cases**.
 
-<sub>`Computer vision` `Privacy` `Research`</sub>
+<sub>`Computer vision` `Research`</sub>
 
 </td></tr>
 </table>

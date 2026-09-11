@@ -158,7 +158,7 @@ relationship system.
 **10,000+ employer records**
 
 <sub>CRM · Pipelines · Interview tracking · Role-based access · Dashboards</sub><br>
-<sub>`Supabase` `Vercel` `AI-assisted build`</sub>
+<sub>`Supabase` `Vercel` `AI-assisted`</sub>
 
 <details><summary><sub><b>Explore</b></sub></summary><br>
 
@@ -183,7 +183,7 @@ itself.
 **Every interaction captured as data**
 
 <sub>QR identification · Recruiter scanning · Bookmarking · Live dashboards</sub><br>
-<sub>`Workflow design` `Functional specs` `Event operations`</sub>
+<sub>`Workflow design` `Specs` `Events`</sub>
 
 <details><summary><sub><b>Explore</b></sub></summary><br>
 
@@ -209,7 +209,7 @@ intelligence.
 **Unstructured resumes → ranked candidates**
 
 <sub>Parsing · ATS scoring · Skill extraction · Job matching · Ranking</sub><br>
-<sub>`LLMs` `NLP` `Recruiter interface`</sub>
+<sub>`LLMs` `NLP` `Recruiter UI`</sub>
 
 <details><summary><sub><b>Explore</b></sub></summary><br>
 
@@ -234,7 +234,7 @@ recruiter.
 **Conversion visible at every stage**
 
 <sub>KPI design · Drill-down · Dynamic filtering · Cohort comparison</sub><br>
-<sub>`Power BI` `Data modelling` `Automated reporting`</sub>
+<sub>`Power BI` `Data modelling` `Reporting`</sub>
 
 <details><summary><sub><b>Explore</b></sub></summary><br>
 

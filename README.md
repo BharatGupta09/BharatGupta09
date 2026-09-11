@@ -1,162 +1,212 @@
 <div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+    <img src="assets/hero-light.svg" alt="Bharat Gupta — Business, Data and Technology">
+  </picture>
 
-# Bharat Gupta
-
-**Business Operations &amp; Data Analyst** — Career Services Division, BITS Pilani Dubai Campus
-
-Business Analysis · Data Analytics · Business Intelligence · Operations · Automation
-
-<a href="https://www.linkedin.com/in/bharat-gupta-29692a2a9/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="mailto:bharatg0904@gmail.com"><img src="https://img.shields.io/badge/Email-24292F?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
-<img src="https://img.shields.io/badge/Dubai,%20UAE-6E7781?style=flat-square" alt="Dubai, UAE">
-
+  <p>
+    <a href="https://www.linkedin.com/in/bharat-gupta-29692a2a9/"><b>LinkedIn</b></a>
+    &nbsp;·&nbsp;
+    <a href="mailto:bharatg0904@gmail.com"><b>Email</b></a>
+    &nbsp;·&nbsp;
+    <span>Dubai, UAE</span>
+  </p>
 </div>
 
----
+I work at the point where **business problems become data problems, and data problems become
+systems**. Most of my experience comes from recruitment and placement operations — an environment
+with real stakeholders, real deadlines and a constant gap between what a team records and what it
+can actually act on.
 
-I work where **business operations, data and technology** meet — inside a university Career Services division that runs recruitment at scale. Employers to engage, placement drives to coordinate, thousands of interactions to make sense of afterwards.
+My work closes that gap: analyse what is happening, report it so decisions can be made, automate
+what should not be manual, and build the system when the process needs one.
 
-My job is to turn that activity into something a decision-maker can act on: dashboards that expose what actually happened, automations that remove manual coordination, and analysis that tells the division where to put its effort next.
-
----
-
-## Currently
-
-| | |
-|---|---|
-| **Role** | Business Operations &amp; Data Analyst, Career Services Division, BITS Pilani Dubai Campus |
-| **Since** | December 2025 — previously Student Coordinator in the same division since September 2022 |
-| **Studying** | B.E. Computer Science, BITS Pilani Dubai Campus — graduating September 2026 |
-| **Working on** | Recruitment analytics · Power BI reporting · Employer engagement operations · Workflow automation |
-| **Open to** | Business Analyst · Data Analyst · Business Intelligence · Business Operations · Analytics Consulting |
+> [!NOTE]
+> **Open to** — Business Analyst · Data Analyst · Business Intelligence · Business Operations ·
+> Analytics Consulting · Digital Transformation
 
 ---
 
-## Experience
+## How I work
 
-### Career Services Division — BITS Pilani Dubai Campus
+| Understand the business | Analyse the data | Build the solution |
+|---|---|---|
+| Requirement gathering, stakeholder management and process analysis — starting from the operational problem, not the tooling | Data cleaning, transformation, modelling and KPI design that turn raw activity into a decision a manager can actually make | BI dashboards, workflow automation and applied AI where an existing process is too manual, too slow or too blind to be trusted |
 
-**Business Operations &amp; Data Analyst** · Dec 2025 – Present<br>
-**Student Coordinator** · Sep 2022 – Dec 2025
+---
 
-Four years inside the division that connects the campus to its employers. The work spans both sides of the operation — coordinating the recruitment activity itself, and building the reporting layer that measures it.
+## Operating environment
 
-- Coordinated recruitment operations, employer engagement and placement activities with cross-functional teams across hiring initiatives and career events.
-- Built Power BI and Excel dashboards tracking recruitment KPIs, student engagement and operational metrics, used for performance reporting and planning.
-- Prepared analytical reports and operational updates for divisional leadership, and identified process improvements that streamlined reporting workflows.
-- Acted as a liaison between employers, students and internal departments — resolving operational issues and managing competing priorities during live recruitment cycles.
+The scale of the operations, ecosystems and datasets this work has been carried out within:
 
-<sub>Jan–Jul 2026 this ran as a formal Practice School II project: <em>Design, Development, and Data-Driven Analysis of Digital Placement and Career Engagement Systems</em> — nine documented workstreams under the Head of Career Services.</sub>
+| `120` | `83` | `2,000+` | `5,000+` | `500+` | `10,000+` |
+|:--:|:--:|:--:|:--:|:--:|:--:|
+| companies<br>registered | employers<br>participating | students<br>supported | prospective<br>employer leads | company<br>engagements | employer<br>records |
+
+<sub><i>These figures describe the scale of the environment, initiative or dataset worked within —
+not individual ownership of every outcome.</i></sub>
+
+---
+
+## Career Services — recruitment operations at scale
+
+**Career Services Division · BITS Pilani Dubai Campus**
+
+The part of my background that is not a side project. A university career services division runs a
+genuine recruitment operation: a pipeline of employers to source and keep warm, hiring drives to
+schedule, candidates to prepare and route, and leadership that needs to know whether any of it is
+working.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Operations &amp; engagement**
+
+Employer engagement and outreach · Recruitment and placement operations · Placement drives and
+recruitment campaigns · Career fairs including **ADIPEC**, **FUNC1 Dubai** and the **Startup Career
+Fair** · Interview coordination · Event execution and operational planning
+
+</td>
+<td width="50%" valign="top">
+
+**Analysis &amp; improvement**
+
+KPI tracking and operational reporting · Recruitment and placement analytics · Data-driven decision
+support for leadership · Process improvement across recruitment workflows · Cross-functional
+coordination between students, employers and internal teams · Issue resolution during live cycles
+
+</td>
+</tr>
+</table>
+
+The through-line: I have sat inside an operation, seen where it leaks time, and built the reporting
+and automation to fix it — rather than analysing a process from the outside.
 
 ---
 
 ## Selected work
 
-Each of these began as an operational problem inside the division, not as a coding exercise.
+Each project below started as an operational problem, not a coding exercise.
 
-### Digital Annual Career Fair — recruitment analytics
+### Employer Relationship CRM
 
-**Problem.** The campus flagship recruitment event traditionally ran on paper resumes and manual candidate tracking, which left no reliable record of what happened or which employers were worth re-engaging.
+`Business Operations` `CRM` `Recruitment Workflows` `Supabase` `Vercel`
 
-**Approach.** The fair ran on a fully paperless stack — QR-based candidate identification, digital resumes, LinkedIn integration. I cleaned and validated the interaction dataset, computed the KPI set, ran pivot-based exhibitor and industry analysis, and designed the executive performance report and dashboards presented to university leadership.
-
-**Outcome.** A measured view of an event that previously produced none — identifying the most engaged industry, the top-performing exhibitors, and a follow-up conversion gap that became a concrete recommendation on student interview readiness.
-
-| Recruiter–student interactions | Companies on campus | Avg scans per exhibitor | Recruiter follow-up interest |
-|---|---|---|---|
-| **1,811** | **60** (80+ registered) | **30.7** | **50%** (183 students shortlisted) |
-
-`Scanfactor` `Excel` `Pivot analysis` `KPI dashboards` `Executive reporting`
+Employer relationships lived across spreadsheets, inboxes and individual memory. Contact history
+fragmented, follow-ups slipped, and nobody could answer *who has spoken to this company, and what
+happened next*. This replaces that with a single operational system built around a base of
+**10,000+ employer records** — a working CRM for a recruitment function, not a contact list.
 
 <details>
-<summary>Further detail</summary>
+<summary><b>Capabilities</b></summary>
 
 <br>
 
-100% of participating students uploaded resumes digitally and 98% integrated LinkedIn profiles, producing a fully digital candidate pool. Students interacted with an average of 5–6 recruiters each. Alongside the analysis I designed the post-event performance report, the infographic dashboards and the official event highlight video.
+Employer profiles · Contact history · Meeting logs · Pipeline tracking · Interview tracking ·
+Tasks and follow-ups · Role-based access · Search across the employer base · Dashboards ·
+Recruitment workflow management
 
 </details>
 
 <br>
 
-### Digital Startup Career Fair — engagement analysis
+### AI Resume Screening
 
-**Problem.** A separate, startup-focused fair needed the same question answered: did the digital format actually improve engagement, and which employers and domains drove it?
+`Applied AI` `LLM / NLP` `Recruitment Automation` `Decision Support`
 
-**Approach.** Collected and structured the platform data, computed engagement and adoption metrics, and analysed interaction distribution across companies and industries.
+Screening high volumes of applications manually is slow and inconsistent — the same candidate is
+judged differently depending on who reads the CV and when. This system applies LLM and NLP
+techniques to structure that first pass: parsing resumes, extracting skills, scoring against
+requirements and ranking candidates on comparable criteria.
 
-**Outcome.** Evidence that the paperless format held up at scale, plus a per-exhibitor engagement ranking used to identify the strongest recruiting partners.
-
-| Students | Startups participating | Companies registered | Industries | Connections made |
-|---|---|---|---|---|
-| **237** | **50** | **64** | **26** | **1,120** |
-
-<sub>98.3% digital resume adoption · 97.5% LinkedIn integration · 4.7 scans per student · 22.4 per exhibitor</sub>
-
-`Scanfactor` `Excel` `Data cleaning` `Distribution analysis` `Data visualisation`
-
-<br>
-
-### Career Aspiration Analytics Dashboard
-
-**Problem.** Placement planning depended on assumptions about what the graduating batch actually wanted. Nobody could answer *how many students need jobs, in which domains* without manual counting.
-
-**Approach.** Built two connected Power BI views — a visualisation dashboard for trends, demographics and academic distribution, and a searchable student dashboard with multi-parameter filtering for recruitment and administrative use. Handled the cleaning, transformation and modelling behind both.
-
-**Outcome.** A demand baseline for placement planning: how many students to place, which domains to target, and therefore how many employers the division needed to bring in.
-
-| Batch survey coverage | Job-oriented | Higher studies | Entrepreneurship |
-|---|---|---|---|
-| **86.5%** | **81%** | **18%** | **2%** |
-
-`Power BI` `Data modelling` `Data cleaning` `Survey analytics` `Stakeholder reporting`
-
-<br>
-
-### Automated Employer Registration System
-
-**Problem.** Employer sign-ups for the career fair were collected and chased manually — slow, inconsistent, and with no structured dataset at the end of it.
-
-**Approach.** Designed and deployed a low-code registration site with an event-driven pipeline: form submission triggers an automated confirmation email to the employer and writes a structured record to a live sheet. Designed the field schema so the output was analysis-ready by default.
-
-**Outcome.** Registration became self-service and the manual coordination step disappeared. The resulting dataset fed directly into industry and domain-preference analysis for the fair.
-
-`WIX` `Event-driven automation` `Google Sheets integration` `Low-code` `Form and schema design`
-
-<br>
-
-### Placement Management System &amp; India placement analysis
-
-**Problem.** The placement cycle runs through a central platform, and the division needed to understand student application behaviour within it — plus a specific question about demand for India-based placements.
-
-**Approach.** Analysed placement-cycle activity on the Superset platform, and ran a structured survey for the India question using pivot-based multi-dimensional analysis across domain, location preference and willingness to participate.
-
-**Outcome.** A clearer picture of where student demand sat by domain and location, supporting targeting decisions for the recruitment calendar. Handled under NDA-governed data conditions.
-
-`Superset` `Excel` `Pivot analysis` `Survey design` `Descriptive statistics`
-
-<br>
-
-### Real-time e-commerce analytics
-
-Outside the placement domain, a real-time analytics system built over **100,000+ e-commerce records** for KPI tracking — analysing customer behaviour and transaction trends to isolate the drivers behind performance, and surfacing them through dashboards built for decision-making rather than description.
-
-`Python` `Dashboards` `KPI tracking` `Behavioural analysis`
+The intent is **decision support, not replacement** — recruiters still decide, but they start from
+structured, consistent evidence instead of a stack of PDFs.
 
 <details>
-<summary>Earlier technical projects</summary>
+<summary><b>Capabilities</b></summary>
 
 <br>
 
-**Smart Resume Analyzer** — Python tool evaluating resumes through keyword extraction and analysis, returning targeted course and certification recommendations. `Python` `NLP` `Automation`
-
-**Cross-age Face Recognition System** — age-invariant facial recognition using the FaceNet model with homomorphic encryption, addressing accuracy loss in cross-age detection. `Python` `Deep learning`
-
-**AI Bicep Curl Counter** — real-time repetition tracking and form feedback from pose data, with a working interface. `OpenCV` `TensorFlow`
-
-**Research** — *Nanofertilizers: A Sustainable Solution to Agriculture and Crop Production*, published in the International Journal of Current Advanced Research.
+Resume parsing · Skill extraction · ATS scoring · Job matching · Candidate ranking ·
+Candidate feedback · Interview question generation
 
 </details>
+
+<br>
+
+### Placement Intelligence &amp; Student Analytics
+
+`Business Intelligence` `Power BI` `KPI Reporting` `Decision Support`
+
+A placement team can always describe last year. The harder question is *what should we do next
+season* — which domains to target, how many employers to bring in, where students are
+under-prepared. This work builds that answer: cleaning and transforming student and placement data,
+modelling it, and presenting it as interactive BI rather than static reports.
+
+Used for placement planning, recruitment strategy, operational visibility and performance tracking
+across the division.
+
+<br>
+
+### Paperless Career Fair
+
+`Digital Transformation` `Process Redesign` `Structured Data Capture`
+
+A career fair traditionally runs on printed resumes, manual sign-in sheets and recruiters
+remembering who they liked. The operational cost is invisible until afterwards, when there is no
+usable record of the event at all.
+
+Digitising the interaction layer removed the paperwork, captured every recruiter–student
+interaction as structured data, improved the experience for both sides, and — most importantly —
+turned the event into something measurable.
+
+<br>
+
+### Employer Registration &amp; Workflow Automation
+
+`Automation` `Operational Efficiency` `Data Pipelines`
+
+Employer sign-ups were collected and chased by hand — inconsistent, slow, and producing no usable
+dataset. Automating registration and data capture made the process self-service, removed the manual
+coordination step, and delivered structured employer data that fed directly into downstream
+analysis.
+
+<br>
+
+### E-commerce Analytics
+
+`Behavioural Analytics` `XGBoost` `Conversion Analysis`
+
+The business question was straightforward and uncomfortable: **conversion was falling while traffic
+was not**. Analysis across **200,000+ behavioural events** isolated a **31.8% month-over-month
+conversion decline** against **+0.7% traffic growth** — evidence that the problem sat in the on-site
+experience and funnel, not in acquisition spend.
+
+Predictive modelling on the same behavioural data reached **84.1%** accuracy with **XGBoost** at a
+**0.99 ROC-AUC**, supporting segmentation of users by likelihood to convert.
+
+<br>
+
+### Review &amp; Sentiment Analytics
+
+`NLP` `BERT` `Voice of Customer`
+
+Customer reviews are the largest source of honest product feedback most businesses own, and the
+least used, because nobody can read **400,000+** of them. Applying a fine-tuned **BERT** classifier
+at **94.2%** accuracy turned that unstructured text into a measurable signal — what customers
+complain about, in what volume, and whether it is getting better or worse.
+
+<br>
+
+### Applied Computer Vision
+
+`Deep Learning` `Face Recognition`
+
+Age-invariant face recognition work using the **SFace** model, reaching approximately **97.6%**
+accuracy on cross-age matching — a problem where conventional recognition degrades sharply as the
+gap between reference and probe images widens.
 
 ---
 
@@ -164,17 +214,17 @@ Outside the placement domain, a real-time analytics system built over **100,000+
 
 | | |
 |---|---|
-| **Analytics &amp; BI** | Power BI · Advanced Excel · SQL · Tableau · Superset |
-| **Business &amp; Operations** | Business analysis · KPI tracking and reporting · Requirement gathering · Process optimisation · Stakeholder management · Recruitment operations |
-| **Data** | Python · Data cleaning and transformation · Pivot modelling · Survey design · Descriptive statistics |
-| **Automation &amp; Platforms** | Event-driven automation (WIX) · Google Sheets pipelines · Scanfactor · AI productivity tools (ChatGPT, Claude, Gemini, Perplexity) |
-| **Communication** | Executive reporting · Infographic dashboards · Adobe Suite · Canva |
+| **Business &amp; Operations** | Business Analysis · Requirement Gathering · Process Optimisation · Stakeholder Management · Recruitment Operations · KPI Reporting |
+| **Analytics &amp; BI** | Power BI · Excel · SQL · Tableau · Data Visualisation |
+| **Data** | Python · Data Cleaning · Data Transformation · Data Modelling · Statistical Analysis |
+| **AI &amp; Automation** | LLM · NLP · AI Resume Screening · Workflow Automation |
+| **Platforms** | Supabase · Vercel · GitHub |
 
 ---
 
-## Certifications
+## Credentials
 
-| Credential | Issuer | |
+| Certification | Issuer | |
 |---|---|---|
 | Data Analytics Essentials | Cisco Networking Academy | [Verify](https://www.credly.com/badges/c5652c63-1ebe-41c3-bc56-4de42470313f/public_url) |
 | Exploratory Data Analysis | Coursera | [Verify](https://coursera.org/share/d836b286758351e1dfd8dabbc1819e52) |
@@ -182,24 +232,19 @@ Outside the placement domain, a real-time analytics system built over **100,000+
 | Data Analytics Job Simulation | Deloitte Australia · Forage | [Verify](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_BgHKoZ93ZF92JFhWQ_1749915487560_completion_certificate.pdf) |
 | Data Engineering on AWS — Foundations | AWS Training | — |
 
----
-
-## Education
-
-**B.E. Computer Science** — BITS Pilani Dubai Campus · Sep 2022 – Sep 2026<br>
-**CBSE Class 12** — Ahlcon International School · 2022
-
-<sub>Languages: English · Hindi · German (basic)</sub>
+**B.E. Computer Science** — BITS Pilani Dubai Campus · Sep 2022 – Sep 2026
 
 ---
 
 <div align="center">
 
-### Open to Business Analyst, Data Analyst, BI and Business Operations roles
+### Let's talk
 
-Based in Dubai, UAE. If you are hiring for a role where understanding the business matters as much as the analysis, I would be glad to talk.
+If you are solving a business problem with data, operations and automation —
+and you want someone who understands all three — I would like to hear about it.
 
-<a href="https://www.linkedin.com/in/bharat-gupta-29692a2a9/"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="mailto:bharatg0904@gmail.com"><img src="https://img.shields.io/badge/bharatg0904@gmail.com-24292F?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://www.linkedin.com/in/bharat-gupta-29692a2a9/"><b>Connect on LinkedIn</b></a>
+&nbsp;·&nbsp;
+<a href="mailto:bharatg0904@gmail.com"><b>bharatg0904@gmail.com</b></a>
 
 </div>

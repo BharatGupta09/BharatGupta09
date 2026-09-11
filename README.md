@@ -56,7 +56,8 @@ than anecdote. My work spans every side of it.
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
+
 
 **BUSINESS &amp; ANALYTICS**
 
@@ -66,8 +67,10 @@ KPI reporting<br>
 Placement analytics<br>
 Operational reporting
 
+
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
+
 
 **BUSINESS DEVELOPMENT**
 
@@ -77,8 +80,12 @@ Market research<br>
 Decision-maker identification<br>
 Employer engagement
 
+
 </td>
-<td width="33%" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 
 **OPERATIONS**
 
@@ -88,10 +95,10 @@ Recruitment campaigns<br>
 Event logistics<br>
 Process optimisation
 
+
 </td>
-</tr>
-<tr>
-<td valign="top">
+<td width="50%" valign="top">
+
 
 **MANAGEMENT**
 
@@ -101,8 +108,12 @@ Career fairs<br>
 Placement drives<br>
 Operational planning
 
+
 </td>
-<td valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 
 **DIGITAL TRANSFORMATION**
 
@@ -112,8 +123,10 @@ AI-enabled recruitment<br>
 Digital platforms<br>
 Reporting automation
 
+
 </td>
-<td valign="top">
+<td width="50%" valign="top">
+
 
 **DATA**
 
@@ -122,6 +135,7 @@ Transformation<br>
 Modelling<br>
 Trend analysis<br>
 Decision support
+
 
 </td>
 </tr>
@@ -141,7 +155,7 @@ Decision support
 Fragmented employer records across spreadsheets and inboxes → one centralised recruitment
 relationship system.
 
-**`10,000+ employer records`**
+**10,000+ employer records**
 
 <sub>CRM · Pipelines · Interview tracking · Role-based access · Dashboards</sub><br>
 <sub>`Supabase` `Vercel` `AI-assisted build`</sub>
@@ -166,7 +180,7 @@ remembered, and one operational view the whole team can work from.
 Printed resumes and manual sign-in sheets → a fully digital event that produces a usable record of
 itself.
 
-**`Every interaction captured as data`**
+**Every interaction captured as data**
 
 <sub>QR identification · Recruiter scanning · Bookmarking · Live dashboards</sub><br>
 <sub>`Workflow design` `Functional specs` `Event operations`</sub>
@@ -192,7 +206,7 @@ an analysable dataset with real follow-up capability at the end of the day.
 High-volume manual screening is slow and inconsistent → structured, comparable candidate
 intelligence.
 
-**`Unstructured resumes → ranked candidates`**
+**Unstructured resumes → ranked candidates**
 
 <sub>Parsing · ATS scoring · Skill extraction · Job matching · Ranking</sub><br>
 <sub>`LLMs` `NLP` `Recruiter interface`</sub>
@@ -217,7 +231,7 @@ recruiter.
 
 "How did last year go?" → "what should we do next season, and where is the funnel leaking?"
 
-**`Conversion visible at every stage`**
+**Conversion visible at every stage**
 
 <sub>KPI design · Drill-down · Dynamic filtering · Cohort comparison</sub><br>
 <sub>`Power BI` `Data modelling` `Automated reporting`</sub>

@@ -1,4 +1,6 @@
 <picture>
+  <source media="(max-width: 520px) and (prefers-color-scheme: dark)" srcset="assets/hero-m-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/hero-m-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
   <img src="assets/hero-light.svg" alt="Bharat Gupta — Business Operations and Data Analyst. I solve operational problems with data, technology and automation.">
@@ -9,6 +11,8 @@ Dubai, UAE &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/bharat-gupta-29
 <br>
 
 <picture>
+  <source media="(max-width: 520px) and (prefers-color-scheme: dark)" srcset="assets/metrics-m-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/metrics-m-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/metrics-light.svg">
   <img src="assets/metrics-light.svg" alt="Scale this work operates within: 120 companies registered, 83 employers participating, 2,000+ students supported, 5,000+ prospective employer leads, 500+ company engagements, 10,000+ employer records.">
@@ -22,6 +26,8 @@ I work where business operations, data and technology meet — translating opera
 measurable workflows, analytical systems and digital products.
 
 <picture>
+  <source media="(max-width: 520px) and (prefers-color-scheme: dark)" srcset="assets/triad-m-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/triad-m-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/triad-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/triad-light.svg">
   <img src="assets/triad-light.svg" alt="Business: requirements, stakeholders, operations, strategy. Data: analytics, business intelligence, KPIs, decision support. Technology: automation, AI, CRM, digital platforms.">

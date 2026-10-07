@@ -35,13 +35,14 @@ measurable workflows, analytical systems and digital products.
 
 <br>
 
-## Where I work
+## Where the problems come from
 
 **Career Services Division** &nbsp;·&nbsp; BITS Pilani Dubai Campus
 
 A university career services division is a real commercial operation — a market to research, an
 employer pipeline to build, hiring events to deliver, and leadership that needs evidence rather
-than anecdote. My work spans every side of it.
+than anecdote. My work spans every side of it, which is where every system below started: not as
+a project idea, but as something that was going wrong in front of me.
 
 <br>
 
@@ -62,86 +63,147 @@ than anecdote. My work spans every side of it.
 
 <br>
 
+---
+
+<br>
+
 ## Selected work
 
+<sub>Four systems, each built for a problem I had to live with. The first three are public — the
+code is the documentation.</sub>
+
 <br>
 
-<sub>**01** &nbsp;/&nbsp; BUSINESS TRANSFORMATION</sub>
+<sub>**01** &nbsp;/&nbsp; APPLIED AI</sub>
 
-### Employer Relationship CRM
+### TalentIQ — AI Recruitment &amp; Candidate Intelligence Platform
 
-Turning fragmented employer relationships, scattered across spreadsheets and inboxes, into a single
-centralised operating system for the recruitment function.
+Most resume screeners infer. *"Worked with cloud technologies"* quietly becomes an AWS
+qualification, and a recruiter acts on something the candidate never claimed.
 
-**10,000+ employer records**
+TalentIQ refuses to infer. Every job requirement resolves to one of three states, and the two
+positive states must quote the line of the resume that supports them.
 
-<sub>Supabase · Vercel · Database-driven architecture · AI-assisted development</sub>
+<picture>
+  <source media="(max-width: 520px) and (prefers-color-scheme: dark)" srcset="assets/evidence-m-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/evidence-m-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/evidence-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/evidence-light.svg">
+  <img src="assets/evidence-light.svg" alt="Every job requirement resolves to one of three evidence states. Demonstrated: the resume explicitly supports this, evidence quoted. Insufficient: hinted at but not established, evidence quoted. Not demonstrated: not supported by the source at all. The model supplies the states and one bounded signal; a fixed scoring engine produces the number.">
+</picture>
+
+**The language model never produces the score.** It supplies evidence states and one bounded
+signal; a deterministic engine applies the weights. Ask a model twice and you get 84, then 79 — a
+recruiter cannot defend a decision on that, and a rejected candidate is entitled to ask why.
+
+<sub>Next.js 15 · TypeScript · Neon PostgreSQL · Cloudflare R2 · Groq · Row-level security</sub>
+
+[**→ Repository**](https://github.com/BharatGupta09/TalentIQ-AI-Recruitment-Candidate-Intelligence-Platform)
 
 <details>
 <summary><sub><b>→ &nbsp;Explore</b></sub></summary>
 
 <br>
 
-Employer profiles · Recruiter and contact management · Contact history · Meeting logs · Recruitment
-pipelines · Interview tracking · Task management · Follow-up reminders · Role-based access ·
-Advanced search · Operational dashboards · Reporting
+AI requirement extraction from a job posting · structured specification (required / preferred /
+nice-to-have) · resume parsing and ATS analysis · evidence-cited assessment against each
+requirement · deterministic scoring with a full component breakdown · candidate ranking ·
+recruiter workspace pairing the requirement matrix with the original PDF · multi-candidate
+comparison · interview kits · pipeline board · CSV export with formula-injection guards
 
-**Impact** — employer data centralised, duplicate records reduced, follow-ups automated rather than
-remembered, and one operational view of the employer relationship the whole team can work from.
+**Authorization lives in the database.** Roughly a hundred row-level security policies, forced on
+every table, decide what each request can see — not application code that can be forgotten. Each
+query runs inside its own transaction carrying the caller's identity, so an unauthenticated
+request fails closed by default rather than by remembering to filter.
+
+**Decision support, not decisions.** The recruiter's stage never overwrites the assessment, and
+the two are stored separately.
 
 </details>
 
 ---
 
-<sub>**02** &nbsp;/&nbsp; DIGITAL TRANSFORMATION</sub>
+<sub>**02** &nbsp;/&nbsp; BUSINESS TRANSFORMATION</sub>
 
-### Paperless Career Fair
+### CorpSync — Employer Relationship Management &amp; Recruitment CRM
 
-Replacing a paper-based recruitment event — printed resumes, manual sign-in, recruiters recalling
-who impressed them — with structured digital interactions that leave behind a usable record.
+Two coordinators independently add the same employer. The relationship history splits in half. Six
+months later nobody can tell which record is current, and the employer gets two people from the
+same university asking the same questions.
 
-**Every recruiter–student interaction captured as data**
+CorpSync makes one record per employer the only possibility, and makes a relationship going quiet
+something the system notices before a person does.
 
-<sub>Workflow mapping · Functional specification · QR identification · Event operations</sub>
+**10,000+ employer records** <sub>— the scale of the operation this was built for</sub>
+
+<sub>React 19 · TypeScript · Express 5 on Cloudflare Workers · PostgreSQL / Neon · Server-enforced RBAC</sub>
+
+[**→ Repository**](https://github.com/BharatGupta09/CorpSync-Employer-Relationship-Management-Recruitment-CRM) &nbsp;<sub>public demo · synthetic data only</sub>
 
 <details>
 <summary><sub><b>→ &nbsp;Explore</b></sub></summary>
 
 <br>
 
-Digital registration · Student, recruiter and administrator workflows · QR-based candidate
-identification · Recruiter scanning · Candidate bookmarking · Interview notes · Recruiter
-dashboards · Administrator dashboards · Event management · Centralised interaction data
+Employer portfolios · corporate contact directory with primary-liaison and decision-maker flags ·
+interaction timeline with a dated next action · recruitment pipelines across eight stages ·
+today's follow-up as Today / Overdue / Upcoming · executive dashboard where every number drills
+into the records behind it · relationship reports · CSV import and export · full audit trail
 
-**Impact** — a paperless recruitment workflow, live visibility of the event for administrators, and
-an analysable dataset with real follow-up capability at the end of the day.
+**Duplicate prevention at three levels** — the API checks the name and normalised website, CSV
+imports flag duplicates inside the file *and* against the database, and unique indexes in the
+database mean two people saving at the same moment still cannot create a duplicate.
+
+**Health is computed, never stored.** An account score and tier — Excellent through Dormant —
+derived on read from days since last contact, interaction volume and open opportunities, so it
+cannot go stale.
+
+**Access control is server-side on every route.** An account manager sees only their own
+portfolio; other portfolios return 404 rather than 403, so they do not even learn those companies
+exist. An executive's owner filter is forced to themselves whatever the request says.
 
 </details>
 
 ---
 
-<sub>**03** &nbsp;/&nbsp; APPLIED AI</sub>
+<sub>**03** &nbsp;/&nbsp; DIGITAL TRANSFORMATION</sub>
 
-### AI Resume Screening
+### CareerFlow — Digital Career Fair &amp; Recruitment Platform
 
-Turning unstructured resumes into structured candidate intelligence, so that high-volume screening
-stops depending on who happens to read the document and when.
+A career fair produces a pile of paper and very little data. Students print thirty résumés;
+recruiters carry a stack home and cannot remember which conversation went with which sheet; and
+Career Services reconstructs the day afterwards from spreadsheets and guesswork.
 
-**Unstructured resumes → ranked, comparable candidates**
+The usual fix is QR badges — which adds printed badges, venue lighting problems and a scanning app
+on every recruiter's phone. **CareerFlow uses no QR codes and no scanners.** A candidate carries
+six characters they can read aloud across a booth counter.
 
-<sub>LLMs · NLP · ATS scoring · Job matching · Recruiter-facing interface</sub>
+**Every recruiter–candidate interaction captured as data**
+
+<sub>Next.js 15 · React 19 · TypeScript · Drizzle ORM · PostgreSQL · Server-side authorization</sub>
+
+[**→ Repository**](https://github.com/BharatGupta09/CareerFlow-Digital-Career-Fair-Recruitment-Platform)
 
 <details>
 <summary><sub><b>→ &nbsp;Explore</b></sub></summary>
 
 <br>
 
-Resume parsing · ATS compatibility scoring · Skill extraction · Keyword analysis · Job matching ·
-Candidate ranking · Personalised resume feedback · AI-generated interview questions
+Structured candidate profiles and résumé versioning · multi-event fairs with their own
+registration windows and booths · live check-in desk a volunteer can run · recruiter candidate
+lookup as the hero interaction · favourites, pipeline stages and private notes · server-side
+filtered pipeline with CSV export · analytics computed from real interaction data, scoped per
+fair · seven reports, none of which expose recruiter notes · audit trail
 
-**Impact** — recruiters start from consistent evidence rather than a stack of PDFs, and candidates
-receive specific feedback instead of silence. Decision support: the hiring call stays with the
-recruiter.
+**The code is an identifier, not a credential.** Six characters from a 30-symbol alphabet with
+`O/0`, `I/1/L` and `U` removed — the ones confused on screen, in handwriting, or misheard across a
+noisy hall. Possessing a code grants nothing: resolving one requires an authenticated recruiter
+whose employer holds a booth at the fair that candidate registered for, and unknown codes return a
+response identical to valid-but-unauthorised ones, so the API cannot be used to enumerate who
+exists.
+
+**One row per candidate × recruiter × event**, uniquely constrained — which is what makes every
+analytic figure computable and stops a re-opened profile double-counting.
 
 </details>
 
@@ -149,61 +211,95 @@ recruiter.
 
 <sub>**04** &nbsp;/&nbsp; BUSINESS INTELLIGENCE</sub>
 
-### Placement Analytics
+### Placement360 — Student &amp; Recruitment Analytics Platform
 
 Moving the placement team from describing last year to deciding the next one — which domains to
 target, how many employers to bring in, and where the funnel is leaking.
 
 **Conversion visible at every stage of the funnel**
 
-<sub>Power BI · Data modelling · KPI design · Drill-down · Automated reporting</sub>
+<sub>Power BI · Advanced Excel · Data modelling · KPI design · Drill-down · Automated reporting</sub>
 
 <details>
 <summary><sub><b>→ &nbsp;Explore</b></sub></summary>
 
 <br>
 
-**Data model** — students · academics · placement status · internships · skills · resumes ·
+**Data model** — students · academics · placement status · internships · skills · résumés ·
 recruiter assignments · preferred industries and roles · applications · offers
 
 **KPIs** — placement rates · student engagement · company participation · applications · interview
 conversion · offer conversion · department-level performance · batch-level statistics · academic
 trends
 
+Segmentation and drill-down from a department down to an individual cohort, with the operational
+reporting automated rather than rebuilt each cycle.
+
+<sub>An internal analytics workstream rather than a public codebase — the data is real student data.</sub>
+
 </details>
+
+<br>
+
+---
+
+<br>
+
+<sub>**05** &nbsp;/&nbsp; DATA SCIENCE</sub>
+
+### InsightX — AI-Driven Business &amp; Customer Analytics
+
+Traffic was up 0.7%. Conversion was down **31.8% month over month**. Nothing in the dashboard
+explained the gap, because the dashboard measured volume and the problem was behaviour.
+
+InsightX joins **200,000+ behavioural events** with **400,000 review records** to find out what
+changed and, more usefully, what to do about each case.
+
+| | |
+|---|---|
+| **Sentiment classification** | Fine-tuned BERT · **94.2%** accuracy |
+| **Conversion modelling** | XGBoost · **84.1%** accuracy · **0.99** ROC-AUC |
+| **Decision framework** | **95%** of cases auto-actioned at **95.9%** accuracy |
+| **Explainability** | SHAP attribution on every prediction |
+
+The point is not the accuracy figure. It is that a model nobody can interrogate does not get
+acted on — so each prediction carries its attribution, and the 5% the framework will not commit to
+is routed to a human instead of guessed at.
 
 <br>
 
 ## More work
 
-**05** &nbsp;&nbsp; **Student Analytics &amp; Placement Intelligence**<br>
+**06** &nbsp;&nbsp; **Student Analytics &amp; Placement Intelligence**<br>
 <sub>Student data cleaned, modelled and segmented into dynamic dashboards supporting recruitment planning. &nbsp;·&nbsp; Power BI</sub>
 
-**06** &nbsp;&nbsp; **Recruitment Analytics &amp; Employer Reporting**<br>
+**07** &nbsp;&nbsp; **Recruitment Analytics &amp; Employer Reporting**<br>
 <sub>Recruitment KPIs and employer engagement measures turned into standardised, automated reporting. &nbsp;·&nbsp; Power BI · Excel</sub>
 
-**07** &nbsp;&nbsp; **Automated Employer Registration**<br>
+**08** &nbsp;&nbsp; **Automated Employer Registration**<br>
 <sub>Manual sign-up replaced by an event-driven form workflow producing analysis-ready data by default. &nbsp;·&nbsp; Workflow automation · Google Sheets</sub>
 
-**08** &nbsp;&nbsp; **Real-Time E-commerce Analytics**<br>
-<sub>100,000+ records of customer behaviour and transactions tracked for KPI and conversion analysis. XGBoost 84.1%, ROC-AUC 0.99. &nbsp;·&nbsp; Python</sub>
+**09** &nbsp;&nbsp; **Attendance &amp; Working-Time Tracking**<br>
+<sub>Shift and working-time tracking for student coordinators, built on the same Workers + Postgres stack. &nbsp;·&nbsp; [Repository](https://github.com/BharatGupta09/career-services-attendance-demo)</sub>
 
-**09** &nbsp;&nbsp; **NLP &amp; Sentiment Analytics**<br>
-<sub>Unstructured customer reviews turned into a measurable signal with a fine-tuned BERT classifier at 94.2% accuracy. &nbsp;·&nbsp; NLP</sub>
+<br>
 
-**10** &nbsp;&nbsp; **Computer Vision &amp; Privacy Research**<br>
-<sub>Age-invariant face recognition combining image processing with privacy-preserving techniques. SFace ≈ 97.6% across 210+ test cases. &nbsp;·&nbsp; Deep learning</sub>
-
-<sub><i>Professional and academic workstreams; source repositories are not public.</i></sub>
+---
 
 <br>
 
 ## How I approach problems
 
-**PROBLEM** &nbsp;→&nbsp; **REQUIREMENTS** &nbsp;→&nbsp; **DATA** &nbsp;→&nbsp; **SYSTEM** &nbsp;→&nbsp; **DECISION**
+<picture>
+  <source media="(max-width: 520px) and (prefers-color-scheme: dark)" srcset="assets/method-m-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/method-m-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/method-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/method-light.svg">
+  <img src="assets/method-light.svg" alt="How I approach problems: problem, then requirements, then data, then system, then decision.">
+</picture>
 
-<sub>Understand the operational problem · translate it into measurable requirements · structure and
-analyse the data · build the dashboard, workflow or system · turn the result into decision support.</sub>
+<sub>The last step is the one that matters. A dashboard nobody acts on and a model nobody trusts
+are the same failure — work that stopped one step short.</sub>
 
 <br>
 
@@ -216,25 +312,55 @@ leads** and **500+ company engagements** — market and prospect research, targe
 decision-maker identification, lead qualification, personalised outreach, follow-up, partnership
 development and pipeline management.
 
+CorpSync exists because I ran this pipeline in spreadsheets first.
+
 <sub>LinkedIn · Apollo.io · Hunter.io · ContactOut · AI-assisted research</sub>
+
+<br>
+
+## Experience
+
+**Business Development &amp; Data Analytics Intern** &nbsp;·&nbsp; <sub>BITS Pilani Dubai Campus — Career Services &nbsp;·&nbsp; Dec 2025 – Present</sub><br>
+<sub>Employer engagement and lead generation, recruitment and placement operations, KPI reporting and
+dashboards, and the digital transformation of the division's manual workflows.</sub>
+
+**GTM Sales Engineer** &nbsp;·&nbsp; <sub>Tenderd &nbsp;·&nbsp; Aug 2026 – Sep 2026</sub><br>
+<sub>Sales engagement and CRM platform work — accounts and prospects, lead qualification, outreach
+sequences, tasks, meetings, activity tracking and reporting, with the workflow design behind them.
+Email, calls, LinkedIn, WhatsApp and CSV workflows; search and filtering; role-based access,
+authentication, authorization and audit logging. TypeScript · Node.js · Express · PostgreSQL /
+Neon · React · Cloudflare Workers.</sub>
+
+**Student Coordinator — Career Services** &nbsp;·&nbsp; <sub>BITS Pilani Dubai Campus &nbsp;·&nbsp; Sep 2022 – Dec 2025</sub><br>
+<sub>Career fairs and placement drives, employer outreach and relationship management, interview
+coordination, operational issue resolution, stakeholder management and process improvement.</sub>
 
 <br>
 
 ## Toolkit
 
-**Analytics &amp; BI** &nbsp;&nbsp; Power BI · Advanced Excel · SQL · Tableau · Superset
+**Business &amp; Analytics** &nbsp;&nbsp; Power BI · Advanced Excel · SQL · Superset · Tableau · Data modelling · KPI design · Requirements · Process optimisation
 
-**Programming** &nbsp;&nbsp; Python · SQL
+**Programming** &nbsp;&nbsp; Python · TypeScript · SQL
 
-**Business** &nbsp;&nbsp; Business analysis · Requirements · KPI design · Process optimisation
+**Product &amp; Technology** &nbsp;&nbsp; React · Next.js · PostgreSQL · Neon · Cloudflare Workers · Vercel · GitHub
 
-**Operations** &nbsp;&nbsp; Recruitment operations · Employer engagement · Stakeholder management
+**AI** &nbsp;&nbsp; LLMs · NLP · Generative AI · Machine learning · Explainable AI · Claude · ChatGPT · Gemini
 
-**Automation** &nbsp;&nbsp; Workflow automation · Google Sheets · WIX
+**Business Development** &nbsp;&nbsp; Apollo.io · Hunter.io · ContactOut · LinkedIn
 
-**AI** &nbsp;&nbsp; LLMs · NLP · AI-assisted workflows · Claude · ChatGPT · Gemini · Perplexity
+<br>
 
-**Platforms** &nbsp;&nbsp; Supabase · Vercel · GitHub
+## Research
+
+**Cross-Age Face Verification Using DeepFace** &nbsp;·&nbsp; <sub>presented at an academic conference</sub><br>
+<sub>ArcFace, SFace and FaceNet512 compared on age-invariant verification across 210+ test cases,
+measured on accuracy, precision, recall and F1. SFace reached ≈ 97.6%.</sub>
+
+**Privacy Challenges in Image Processing Applications**<br>
+<sub>Differential privacy, homomorphic encryption and secure multi-party computation assessed against
+healthcare and surveillance computer vision — where the privacy guarantee stops being worth its
+computational cost, and what that does to scalability and model utility.</sub>
 
 <br>
 
@@ -264,7 +390,7 @@ development and pipeline management.
 
 ### Building better business systems with data?
 
-Open to Business Analyst, Data Analyst, Business Intelligence, Business Operations and analytics
-consulting roles.
+Open to Business Analyst, Data Analyst, Business Intelligence, Business Operations, analytics
+consulting, strategy and digital transformation roles.
 
 [LinkedIn](https://www.linkedin.com/in/bharat-gupta-29692a2a9/) &nbsp;·&nbsp; [bharatg0904@gmail.com](mailto:bharatg0904@gmail.com) &nbsp;·&nbsp; Dubai, UAE
